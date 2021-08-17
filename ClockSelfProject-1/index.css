@@ -1,0 +1,40 @@
+#clockContainer {
+  position: relative;
+  margin: auto;
+  width: 40vw;
+  height: 40vw;
+  background: url(https://png2.cleanpng.com/sh/31e122e0749e0617b32e01b0bd4b7408/L0KzQYm3UsE4N5h1j5H0aYP2gLBuTgNwa5pmhJ92ZXTscX70ggJsbaVuhtk2dHnwdX70gf5ib5ZyfdD9LXPvf7TyTfNtd5RwRelydHjyhcW0iPFvbKQyTdMDN3LkSLeBUfRmQGIzTak5NEa3RoK4VcE5QGU5TacENUO1PsH1h5==/kisspng-social-media-marketing-time-management-clock-clock-without-hands-5a87ba8f81de81.570464611518844559532.png);
+  background-size: 100%;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+#hour {
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.8%;
+  opacity: 0.8;
+  transform-origin: bottom;
+}
+#minute {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.8%;
+  opacity: 0.8;
+  transform-origin: bottom;
+}
+#second {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.5%;
+  opacity: 0.8;
+  transform-origin: bottom;
+}
